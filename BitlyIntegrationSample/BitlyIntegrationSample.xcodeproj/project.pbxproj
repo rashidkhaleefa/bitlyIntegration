@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4712E2B6161C4428003A739A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712E2B5161C4428003A739A /* UIKit.framework */; };
+		4712E2B8161C4428003A739A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712E2B7161C4428003A739A /* Foundation.framework */; };
+		4712E2BA161C4428003A739A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712E2B9161C4428003A739A /* CoreGraphics.framework */; };
+		4712E2C0161C4428003A739A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4712E2BE161C4428003A739A /* InfoPlist.strings */; };
+		4712E2C2161C4428003A739A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712E2C1161C4428003A739A /* main.m */; };
+		4712E2C6161C4428003A739A /* delegateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712E2C5161C4428003A739A /* delegateAppDelegate.m */; };
+		4712E2CF161C446C003A739A /* BitlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712E2CD161C446C003A739A /* BitlyViewController.m */; };
+		4712E2D0161C446C003A739A /* BitlyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4712E2CE161C446C003A739A /* BitlyViewController.xib */; };
+		4712E2D7161C45F8003A739A /* URLShortener.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712E2D6161C45F8003A739A /* URLShortener.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4712E2B1161C4428003A739A /* BitlyIntegrationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitlyIntegrationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4712E2B5161C4428003A739A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4712E2B7161C4428003A739A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4712E2B9161C4428003A739A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4712E2BD161C4428003A739A /* BitlyIntegrationSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BitlyIntegrationSample-Info.plist"; sourceTree = "<group>"; };
+		4712E2BF161C4428003A739A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4712E2C1161C4428003A739A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4712E2C3161C4428003A739A /* BitlyIntegrationSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BitlyIntegrationSample-Prefix.pch"; sourceTree = "<group>"; };
+		4712E2C4161C4428003A739A /* delegateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = delegateAppDelegate.h; sourceTree = "<group>"; };
+		4712E2C5161C4428003A739A /* delegateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegateAppDelegate.m; sourceTree = "<group>"; };
+		4712E2CC161C446C003A739A /* BitlyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitlyViewController.h; path = ../BitlyViewController.h; sourceTree = "<group>"; };
+		4712E2CD161C446C003A739A /* BitlyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BitlyViewController.m; path = ../BitlyViewController.m; sourceTree = "<group>"; };
+		4712E2CE161C446C003A739A /* BitlyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BitlyViewController.xib; path = ../BitlyViewController.xib; sourceTree = "<group>"; };
+		4712E2D5161C45F8003A739A /* URLShortener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLShortener.h; sourceTree = "<group>"; };
+		4712E2D6161C45F8003A739A /* URLShortener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLShortener.m; sourceTree = "<group>"; };
+		4712E2D8161C46D8003A739A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4712E2AE161C4428003A739A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4712E2B6161C4428003A739A /* UIKit.framework in Frameworks */,
+				4712E2B8161C4428003A739A /* Foundation.framework in Frameworks */,
+				4712E2BA161C4428003A739A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4712E2A6161C4428003A739A = {
+			isa = PBXGroup;
+			children = (
+				4712E2BB161C4428003A739A /* BitlyIntegrationSample */,
+				4712E2B4161C4428003A739A /* Frameworks */,
+				4712E2B2161C4428003A739A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4712E2B2161C4428003A739A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4712E2B1161C4428003A739A /* BitlyIntegrationSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4712E2B4161C4428003A739A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4712E2B5161C4428003A739A /* UIKit.framework */,
+				4712E2B7161C4428003A739A /* Foundation.framework */,
+				4712E2B9161C4428003A739A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4712E2BB161C4428003A739A /* BitlyIntegrationSample */ = {
+			isa = PBXGroup;
+			children = (
+				4712E2CC161C446C003A739A /* BitlyViewController.h */,
+				4712E2CD161C446C003A739A /* BitlyViewController.m */,
+				4712E2CE161C446C003A739A /* BitlyViewController.xib */,
+				4712E2C4161C4428003A739A /* delegateAppDelegate.h */,
+				4712E2C5161C4428003A739A /* delegateAppDelegate.m */,
+				4712E2BC161C4428003A739A /* Supporting Files */,
+				4712E2D5161C45F8003A739A /* URLShortener.h */,
+				4712E2D6161C45F8003A739A /* URLShortener.m */,
+				4712E2D8161C46D8003A739A /* Constants.h */,
+			);
+			path = BitlyIntegrationSample;
+			sourceTree = "<group>";
+		};
+		4712E2BC161C4428003A739A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4712E2BD161C4428003A739A /* BitlyIntegrationSample-Info.plist */,
+				4712E2BE161C4428003A739A /* InfoPlist.strings */,
+				4712E2C1161C4428003A739A /* main.m */,
+				4712E2C3161C4428003A739A /* BitlyIntegrationSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4712E2B0161C4428003A739A /* BitlyIntegrationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4712E2C9161C4428003A739A /* Build configuration list for PBXNativeTarget "BitlyIntegrationSample" */;
+			buildPhases = (
+				4712E2AD161C4428003A739A /* Sources */,
+				4712E2AE161C4428003A739A /* Frameworks */,
+				4712E2AF161C4428003A739A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitlyIntegrationSample;
+			productName = BitlyIntegrationSample;
+			productReference = 4712E2B1161C4428003A739A /* BitlyIntegrationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4712E2A8161C4428003A739A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4712E2AB161C4428003A739A /* Build configuration list for PBXProject "BitlyIntegrationSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4712E2A6161C4428003A739A;
+			productRefGroup = 4712E2B2161C4428003A739A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4712E2B0161C4428003A739A /* BitlyIntegrationSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4712E2AF161C4428003A739A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4712E2C0161C4428003A739A /* InfoPlist.strings in Resources */,
+				4712E2D0161C446C003A739A /* BitlyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4712E2AD161C4428003A739A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4712E2C2161C4428003A739A /* main.m in Sources */,
+				4712E2C6161C4428003A739A /* delegateAppDelegate.m in Sources */,
+				4712E2CF161C446C003A739A /* BitlyViewController.m in Sources */,
+				4712E2D7161C45F8003A739A /* URLShortener.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4712E2BE161C4428003A739A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4712E2BF161C4428003A739A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4712E2C7161C4428003A739A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4712E2C8161C4428003A739A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4712E2CA161C4428003A739A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitlyIntegrationSample/BitlyIntegrationSample-Prefix.pch";
+				INFOPLIST_FILE = "BitlyIntegrationSample/BitlyIntegrationSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4712E2CB161C4428003A739A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitlyIntegrationSample/BitlyIntegrationSample-Prefix.pch";
+				INFOPLIST_FILE = "BitlyIntegrationSample/BitlyIntegrationSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4712E2AB161C4428003A739A /* Build configuration list for PBXProject "BitlyIntegrationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4712E2C7161C4428003A739A /* Debug */,
+				4712E2C8161C4428003A739A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4712E2C9161C4428003A739A /* Build configuration list for PBXNativeTarget "BitlyIntegrationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4712E2CA161C4428003A739A /* Debug */,
+				4712E2CB161C4428003A739A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4712E2A8161C4428003A739A /* Project object */;
+}
